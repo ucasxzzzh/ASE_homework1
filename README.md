@@ -29,4 +29,11 @@
 --
 ## 删除app\assets\javascripts\application.js中的倒数第二行turbolins
 ## 删除views/layouts/applications里的所有turbolinks相关项
-
+3、github上传文件（命令行下）
+--
+## git clone URL 从github上下载文件
+## 修改文档
+## git status 检查更新文件是否正确
+## git add .
+## git commit -m ‘标记文档（中间不能有空格）’ 上传到缓冲区
+## git push origin master 输入账号密码即上传成功
