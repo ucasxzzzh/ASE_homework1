@@ -9,4 +9,4 @@
 ### 3、链接到数据库进行增删改查操作
 截图展示：
 --
-![](ASE_homework1/screenshot/主页.png)
+![]（ASE_homework1/screenshot/主页.png）
