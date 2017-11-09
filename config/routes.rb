@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :databases
   resources :lists
   get 'articles/new'
 

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @database.name %>
+</p>
+
+<p>
+  <strong>Sex:</strong>
+  <%= @database.sex %>
+</p>
+
+<%= link_to '继续修改', edit_database_path(@database) %> |
+<%= link_to '确认返回', databases_path %>
