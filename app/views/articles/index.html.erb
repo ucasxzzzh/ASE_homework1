@@ -1,0 +1,27 @@
+<div>
+<h1>数据库操作</h1>
+ 
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+ 
+  <% @articles %>
+
+  <% if @articles.respond_to?("each")%>
+    <% @articles.each do |article| %>
+      <tr>
+        <td><%= article.title %></td>
+        <td><%= article.text %></td>
+        <td><%= link_to '改', edit_article_path(article) %></td>
+        <td><%= link_to '查', article_path(article) %></td>
+	     	<td><%= link_to '删', article_path(article), method: :delete, data: { confirm: '确定要删除该行吗?' } %></td>
+      </tr>
+    <% end %>
+  <%end%>
+  <tr><td><%= link_to '增', new_article_path %></td></tr>
+</table>
+
+<h2><a href="/">返回主页</a></h2>
+</div>
