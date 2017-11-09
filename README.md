@@ -23,8 +23,10 @@
 ![主页](https://github.com/ucasxzzzh/ASE_homework1/blob/master/screenshot/%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE.png)
 遇到问题
 ==
-### 1、将gems源换成http://gems.ruby-china.com
-### 2、TypeError：对象不支持此属性或方法
-###       删除app\assets\javascripts\application.js中的倒数第二行turbolins
-###      再删除views/layouts/applications里的所有turbolinks相关项
+1、bundle install问题可将将gems源换成http://gems.ruby-china.com
+--
+2、TypeError：对象不支持此属性或方法
+--
+## 删除app\assets\javascripts\application.js中的倒数第二行turbolins
+## 删除views/layouts/applications里的所有turbolinks相关项
 
