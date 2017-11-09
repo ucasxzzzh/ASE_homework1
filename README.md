@@ -24,7 +24,7 @@
 遇到问题
 ==
 ### 1、将gems源换成http://gems.ruby-china.com
-### 2、TypeError：对象不支持此属性或方法—
-###     删除app\assets\javascripts\application.js中的倒数第二行turbolins
-###     再删除views/layouts/applications里的所有turbolinks相关项
+### 2、TypeError：对象不支持此属性或方法
+###       删除app\assets\javascripts\application.js中的倒数第二行turbolins
+###      再删除views/layouts/applications里的所有turbolinks相关项
 
